@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sam's House Quiz</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div id="intro-page">
-        <h1>Welcome to Sam's House Quiz!</h1>
-        <p>Find out what you really need for your ultimate bachelor (oops, I mean couple's) pad.</p>
-        <button id="start-btn">Start Quiz</button>
+    <div id="quiz-container">
+        <!-- Intro Page -->
+        <div id="intro-page">
+            <h1>So You’ve Got a 4,000 Sq. Ft. House... Now What?</h1>
+            <p>Let’s figure out what you actually need to turn it into the ultimate bachelor pad—well, a bachelor pad <em>with a twist</em> since I’m literally your girlfriend and made this quiz.</p>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- Question Container -->
+        <div id="question-container" class="hidden">
+            <!-- Questions will be dynamically inserted here -->
+        </div>
+
+        <!-- Results Container -->
+        <div id="results-container" class="hidden">
+            <h2>Here’s Your Game Plan!</h2>
+            <p>We’ve done the hard work. You just need to click ‘add to cart.’</p>
+            <div id="results">
+                <!-- Results will be dynamically inserted here -->
+            </div>
+        </div>
     </div>
-    <div id="question-container" class="hidden"></div>
-    <div id="results-container" class="hidden">
-        <h2>Here’s Your List:</h2>
-        <div id="results"></div>
-    </div>
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
