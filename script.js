@@ -122,3 +122,7 @@ function showResults() {
 document.getElementById("start-btn").addEventListener("click", startQuiz);
 
 showIntroPage();
+
+
+
+
