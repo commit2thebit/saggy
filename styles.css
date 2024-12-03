@@ -18,7 +18,7 @@ body {
     display: none;
 }
 
-#intro-page, #question-container, #results-container {
+#quiz-container {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
